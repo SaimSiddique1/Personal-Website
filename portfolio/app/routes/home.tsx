@@ -5,10 +5,7 @@ import About from "../components/About";
 import Education from "../components/Education";
 import Projects from "../components/Projects";
 import Skills from "../components/Skills";
-import Experience from "../components/Experience";
-import Achievements from "../components/Achievements";
 import Contact from "../components/Contact";
-import MyStory from "../components/MyStory";
 import Footer from "../components/Footer";
 
 export function meta({}: Route.MetaArgs) {
@@ -23,15 +20,12 @@ export default function Home() {
     <>
       <Header />
       <Hero />
-        <MyStory />
-        <About />
-        <Education />
-        <Projects />
-        <Skills />
-        <Experience />
-        <Achievements />
-        <Contact />
-  <Footer />
+      <About />
+      <Education />
+      <Projects />
+      <Skills />
+      <Contact />
+      <Footer />
     </>
   );
 }
